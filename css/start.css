@@ -1,0 +1,133 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(250, 250, 250);}
+.navbar-default{
+    margin: 0px;
+    padding: 1% 9%;
+    background-color: white;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 26.4504px 33.063px rgba(0, 0, 0, 0.1), 0px 13.2252px 13.2252px rgba(0, 0, 0, 0.04);
+
+    
+}
+.navbar-default li{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.22em;
+text-transform: uppercase;
+color: black;
+
+}
+.navbar-default .navbar-right li a{
+    color: black;
+}
+
+
+
+.start{
+width: 50%;
+height: 423px;
+background: #FAFAFA;
+box-shadow: 0px 26.45px 33.06px rgba(0, 0, 0, 0.1), 0px 13.23px 13.23px rgba(0, 0, 0, 0.04);
+border-radius: 5px;
+text-align: center;
+margin: 10% 24%;
+padding:2%; 
+    
+}
+
+.start h1{
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: #1C1C1B;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+margin-bottom: 7%;
+
+}
+.start select{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #1C1C1B;
+width: 70%;
+opacity: 0.7;
+border:2px solid #EE4E24;
+box-sizing: border-box;
+border-radius: 5px;
+/*padding: 5% 0;*/
+background-color: #FAFAFA;
+}
+.start h3{
+width: 60px;
+height: 24px;
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+    padding-left: 16%;
+text-align: center;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+
+/* 1C Dark */
+
+color: #1C1C1B;
+}
+
+
+
+.start button{
+width: 70%;
+height: 59px;
+background-color: #EE4E24;
+border-radius: 3px;
+border: none;
+margin-top: 12%;
+}
+.start button a{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+}
+
+#login .logindetails p{
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 17.714px;
+line-height: 44px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+margin-top: 12%;
+}#login .logindetails p a{
+text-decoration: none;
+color:  #EE4E24;
+}
