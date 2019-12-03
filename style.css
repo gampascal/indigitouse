@@ -1,0 +1,244 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(250, 250, 250);}
+.navbar-default{
+    margin: 0px;
+    padding: 1% 9%;
+    background-color: white;
+    border: none;
+    text-align: center;
+    
+}
+.navbar-default li{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.22em;
+text-transform: uppercase;
+color: black;
+
+}
+.navbar-default .navbar-right li a{
+    color: black;
+}
+
+.navbar-right .active{
+    border-bottom: 5px solid #EE4E24;
+    background-color: none;
+    border-radius: 3px;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    margin: 0px;
+    padding: 0 0;
+    background-image: url('../images/Untitled-1.png');
+    background-size: cover;
+    background-position: center fixed;
+}
+.background h1{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 4em;
+line-height: 96px;
+margin-left: 12%;
+color: #FAFAFA;
+margin-top: 20%;
+}
+span{
+    color: #EE4E24;
+}
+.background .btn-default{
+width: 272.32px;
+height: 79.62px;
+background-color: #EE4E24;
+border: none;
+border-radius: 0px;
+margin-left: 12%;
+}
+.background a .btn-default {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.background .btn-primary{
+position: relative;
+width: 108.27px;
+height: 108.27px;
+background: #EE4E24;
+border-radius: 0px;
+border: none;
+margin-top: 170%;
+margin-left: 95%;
+
+}
+.background .btn-secondary{
+    
+position: relative;
+width: 108.27px;
+height: 108.27px;
+background: #FFFFFF;
+opacity: 0.5;
+border-radius: 0px;
+border: none;
+margin-top: 170%;
+margin-left: 42%;
+}
+.background img{
+    margin-top: 2%;
+    margin-bottom: 0px;
+    padding: 0px;
+    opacity: 0.7;
+}
+.about{
+    text-align: center;
+    
+}
+.about h1{
+padding-top: 50px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 47.6px;
+line-height: 78px;
+/* or 163% */
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #1C1C1B;
+    
+}
+.about p{
+padding:50px; 
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 44px;
+/* or 168% */
+
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #1C1C1B;
+}
+.know{
+    background-color: black;
+    padding: 12%;
+}
+.know h1{
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 3em;
+line-height: 64px;
+/* or 125% */
+
+/*letter-spacing: 0.06em;*/
+text-transform: uppercase;
+
+color: #FAFAFA;
+}
+.know p{
+ color: #EE4E24;
+    font-size: 2em;
+}
+.know button{
+   
+background: #EE4E24;
+border-radius: 0px;
+border: none;
+width: 272.32px;
+height: 79.62px;
+margin-top:50px;
+margin-left: 60px;
+}
+.know button:hover{
+    background: #EE4E24;
+border-radius: 0px;
+border: none;
+width: 272.32px;
+height: 79.62px;
+margin-top:50px;
+margin-left: 60px;
+}
+.know .col-md-6{
+    text-align: justify;
+    padding: 20px;
+}
+.know a .btn-default {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.get{
+    text-align: center;
+    padding: 12%;
+}
+.get h1{
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 3em;
+line-height: 64px;
+padding: 20px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+}
+.get p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.get input{
+    border: 2px solid #EE4E24;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 1.3em;
+}
+.get textarea{
+    border: 2px solid #EE4E24;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 1.3em;
+}
+.get button{
+background: #EE4E24;
+border-radius: 0px;
+border: none;
+width: 315px;;
+height: 79.62px;
+margin-left: 2px;
+    
+}
+.get .btn-default a{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+footer h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+      font-size: 1.7em;
+}
+footer h2 i {
+   color: #EE4E24;
+}

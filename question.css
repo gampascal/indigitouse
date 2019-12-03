@@ -1,0 +1,146 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(250, 250, 250);}
+.navbar-default{
+    margin: 0px;
+    padding: 1% 9%;
+    background-color: white;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 26.4504px 33.063px rgba(0, 0, 0, 0.1), 0px 13.2252px 13.2252px rgba(0, 0, 0, 0.04);
+
+    
+}
+.navbar-default li{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.22em;
+text-transform: uppercase;
+color: black;
+
+}
+.navbar-default .navbar-right li a{
+    color: black;
+}
+
+
+
+.question{
+width: 70%;
+height: 580px;
+background: #FAFAFA;
+box-shadow: 0px 26.45px 33.06px rgba(0, 0, 0, 0.1), 0px 13.23px 13.23px rgba(0, 0, 0, 0.04);
+border-radius: 5px;
+text-align: center;
+margin: 10% 15%;
+padding-right:4%; 
+    
+}
+.top{
+    padding: 5% 6% 0% 6%;
+}
+img{
+    float: left;
+    margin-left: 5%;
+    
+}
+
+.progressbar{
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+       
+}
+hr{
+    
+    border: 0.5px solid gray;
+    margin-top: 4%;
+    width: 106%;
+    
+}
+
+.question h1{
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: #1C1C1B;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+margin-bottom: 7%;
+
+}
+
+/*
+.question p{
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+color: #1C1C1B;
+}
+*/
+.text-size{
+font-family: Segoe UI;
+font-style: normal;
+font-size: 1.5em;
+color: #1C1C1B;
+margin-left: 6%;
+    font-weight: 500;
+}
+.questions{
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-left: 6%;
+}.time{
+    text-transform: uppercase;
+    font-weight:bold;
+    float: right;
+}
+.Q-body{
+    padding: 5%;
+    text-align: justify;
+}
+.question li {
+    border: 2px solid grey;
+    text-align: left;
+    padding: 10px;
+}
+.question ul {
+    list-style-type: none;
+}
+
+.question button{
+width: 30%;
+height: 40px;
+background-color: #EE4E24;
+border-radius: 3px;
+border: none;
+float: right;
+margin-right: 5%;
+opacity: 0.6;
+
+   
+}
+.question button a{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 200;
+font-size:1em;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+}
