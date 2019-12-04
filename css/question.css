@@ -30,19 +30,41 @@ color: black;
 
 
 
-.start{
-width: 50%;
-height: 423px;
+.question{
+width: 70%;
+height: 580px;
 background: #FAFAFA;
 box-shadow: 0px 26.45px 33.06px rgba(0, 0, 0, 0.1), 0px 13.23px 13.23px rgba(0, 0, 0, 0.04);
 border-radius: 5px;
 text-align: center;
-margin: 10% 24%;
-padding:2%; 
+margin: 10% 15%;
+padding-right:4%; 
+    
+}
+.top{
+    padding: 5% 6% 0% 6%;
+}
+img{
+    float: left;
+    margin-left: 5%;
     
 }
 
-.start h1{
+.progressbar{
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+       
+}
+hr{
+    
+    border: 0.5px solid gray;
+    margin-top: 4%;
+    width: 106%;
+    
+}
+
+.question h1{
 
 font-family: Segoe UI;
 font-style: normal;
@@ -59,75 +81,66 @@ text-transform: uppercase;
 margin-bottom: 7%;
 
 }
-.start select{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-color: #1C1C1B;
-width: 70%;
-opacity: 0.7;
-border:2px solid #EE4E24;
-box-sizing: border-box;
-border-radius: 5px;
-/*padding: 5% 0;*/
-background-color: #FAFAFA;
-}
-.start h3{
-width: 60px;
-height: 24px;
+
+/*
+.question p{
+
 font-family: Segoe UI;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
-line-height: 24px;
-    padding-left: 16%;
-text-align: center;
-letter-spacing: 0.13em;
-text-transform: uppercase;
-
-/* 1C Dark */
-
+font-size: 1em;
 color: #1C1C1B;
 }
+*/
+.text-size{
+font-family: Segoe UI;
+font-style: normal;
+font-size: 1.5em;
+color: #1C1C1B;
+margin-left: 6%;
+    font-weight: 500;
+}
+.questions{
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-left: 6%;
+}.time{
+    text-transform: uppercase;
+    font-weight:bold;
+    float: right;
+}
+.Q-body{
+    padding: 5%;
+    text-align: justify;
+}
+.question li {
+    border: 2px solid grey;
+    text-align: left;
+    padding: 10px;
+}
+.question ul {
+    list-style-type: none;
+}
 
-
-
-.start button{
-width: 70%;
-height: 59px;
+.question button{
+width: 30%;
+height: 40px;
 background-color: #EE4E24;
 border-radius: 3px;
 border: none;
-margin-top: 12%;
+float: right;
+margin-right: 5%;
+opacity: 0.6;
+
+   
 }
-.start a button {
+.question button a{
 font-family: Segoe UI;
 font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 29px;
+font-weight: 200;
+font-size:1em;
 text-align: center;
-letter-spacing: 0.17em;
 text-transform: uppercase;
 text-decoration: none;
 color: white;
-}
-
-#login .logindetails p{
-
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 17.714px;
-line-height: 44px;
-text-align: center;
-letter-spacing: 0.05em;
-color: #000000;
-margin-top: 12%;
-}#login .logindetails p a{
-text-decoration: none;
-color:  #EE4E24;
 }

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/credit.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 	<title>Indigitous</title>
@@ -14,8 +14,8 @@
 
 </head>
 
-<body>
-<nav class="navbar navbar-default">
+<body data-spy="scroll" data-target="#navbarindi">
+<nav class="navbar navbar-default navbar-fixed-top" id="navbarindi">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -42,24 +42,43 @@
 </nav>
 	
 	<div class="container-fluid">
-	  <div class="col-md-6"></div>
-	  <div class="col-md-6" id="login">
-	      <div class="logindetails">
-	          <h1>REGISTER</h1>
-	      <input type="text" placeholder="FULLNAME" size="50px"> <br>
-	      <input type="email" placeholder="EMAIL" size="50px"> <br>
-	      <input type="password" placeholder="PASSWORD" size="50px"> <br>
-	      <input type="text" placeholder="HUB" size="50px"> <br>
-	     <a href="#"> <button class="btn btn-default btn-lg"> REGISTER</button></a> <br>
-	      <p><a href="login.html">Login here.</a></p>
-	      </div>
-	  </div>
+	    <div class="credit">
+	        <h1>CREDIT </h1>
+	          <h4> Application Built by Indigitous Nigeria,  Frontend, UI/UX Design by Indigitous bauchi, Backend By Indigitous Lagos</h4> 
+	          <h5>Our Team</h5>
+	          <ul>
+	              <li>Joshua Oyeshola- Project Manager</li>
+	              <li>Godson Chibuikem Jr. - Ui/Ux Design</li>
+	              <li>Elizabeth Agada - Frontend</li>
+	              <li>Gambo Suleiman - Frontend</li>
+	              <li>Ibrahim Bitmwa- Frontend</li>
+	              <li>Yohanna Ayuba- Frontend</li>
+	              <li>Temitope Akintomide- Backend</li>
+	          </ul>
+	          
+	    </div>
+	<footer>
+	    <div class="row">
+	        <div class="col-md-6">
+	            <img src="images/Logo.png" alt="">
+	        </div>
+	        <div class="col-md-6">
+	            <div class="col-md-6">
+	               <h2><i class="fa fa-whatsapp"></i> RESOURCE CENTER</h2>
+	            </div>
+	            <div class="col-md-6">
+	               <h2><i class="fa fa-phone"></i> +2347067983342</h2>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-	<script>
+<script>
+        $('body').scrollspy({ target: '#navbarindi' })
 	</script>
 
 </body>

@@ -46,7 +46,7 @@ color: black;
 font-family: Josefin Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 4.5em;
+font-size: 4em;
 line-height: 96px;
 margin-left: 12%;
 color: #FAFAFA;
@@ -63,7 +63,7 @@ border: none;
 border-radius: 0px;
 margin-left: 12%;
 }
-.background .btn-default a{
+.background a .btn-default {
     color: white;
     font-size: 1.5em;
     text-decoration: none;
@@ -160,11 +160,20 @@ height: 79.62px;
 margin-top:50px;
 margin-left: 60px;
 }
+.know button:hover{
+    background: #EE4E24;
+border-radius: 0px;
+border: none;
+width: 272.32px;
+height: 79.62px;
+margin-top:50px;
+margin-left: 60px;
+}
 .know .col-md-6{
     text-align: justify;
     padding: 20px;
 }
-.know .btn-default a{
+.know a .btn-default {
     color: white;
     font-size: 1.5em;
     text-decoration: none;
