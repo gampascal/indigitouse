@@ -45,12 +45,14 @@ text-align: center;
 margin: 10% 5%;
 padding:2%;
 }
-.credit h1{
-font-family: Josefin Sans;
+.credit .ourteam{
+/*font-family: 'Josefin Sans', sans-serif;*/
+/*
 font-style: normal;
 font-weight: bold;
 font-size: 3em;
 line-height: 96px;
+*/
 color:  #EE4E24;
 }
 .credit h4{
@@ -61,7 +63,7 @@ font-size:2em;
 text-align: justify;
 color: #1C1C1B;
     line-height: 1.5em;
-}.credit h5{
+}.credit .ourteam{
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
@@ -70,7 +72,7 @@ text-align: justify;
 color: #1C1C1B;
 line-height: 1.5em;
 font-weight: bold;
-    text-decoration: underline;
+
 }.credit li{
 font-family: Segoe UI;
 font-style: normal;
@@ -79,6 +81,9 @@ font-size: 1.5em;
 text-align: justify;
 color: #1C1C1B;
     list-style-type: square;
+}
+.credit .col-md-3 img{
+    
 }
 footer{
     background-color: black;

@@ -10,6 +10,10 @@ body{
     text-align: center;
     
 }
+.navbar-right .active{
+    border-bottom: 5px solid #EE4E24;
+    background-color: none;
+    border-radius: 3px;}
 .navbar-default li{
 font-family: Segoe UI;
 font-style: normal;
