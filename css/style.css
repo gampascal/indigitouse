@@ -3,11 +3,11 @@ body{
     margin: 0px;
     background-color: rgb(250, 250, 250);}
 .navbar-default{
-    margin: 0px;
     padding: 1% 9%;
     background-color: white;
     border: none;
     text-align: center;
+    width: 100%;
     
 }
 .navbar-default li{
@@ -34,6 +34,7 @@ color: black;
 .container-fluid{
     padding: 0px;
     margin: 0px;
+    
 }
 .background{
     margin: 0px;
@@ -138,10 +139,7 @@ font-family: Josefin Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 3em;
-line-height: 64px;
-/* or 125% */
-
-/*letter-spacing: 0.06em;*/
+line-height: 50px;
 text-transform: uppercase;
 
 color: #FAFAFA;
