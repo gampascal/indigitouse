@@ -92,7 +92,7 @@ span{
 
 
 
-.background .btn-primary{
+.background .btn-lg{
     position: relative;
     width: 108.27px;
     height: 108.27px;
@@ -105,15 +105,22 @@ span{
 }
 .background .btn-secondary{
     
-position: relative;
-width: 108.27px;
-height: 108.27px;
-background: #FFFFFF;
-opacity: 0.5;
-border-radius: 0px;
-border: none;
-margin-top: 170%;
-margin-left: 42%;
+    position: relative;
+    width: 108.27px;
+    height: 108.27px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 0px;
+    border: none;
+    margin-top: 170%;
+    margin-left: 42%;
+}
+
+.btn{
+    margin-left: 100px;
+    background: #1C1C1B;
+    position: absolute;
+    width: 150px;
 }
 .background img{
     margin-top: 2%;
@@ -126,25 +133,26 @@ margin-left: 42%;
     
 }
 .about h1{
-padding-top: 50px;
+padding-top: 30px;
 font-family: 'Josefin Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 47.6px;
-line-height: 78px;
+font-size: 30px;
+line-height: 50px;
 /* or 163% */
-letter-spacing: 0.06em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #1C1C1B;
     
 }
 .about p{
-padding:50px; 
+padding-top:30px; 
+padding-bottom: 30px;
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 26px;
-line-height: 44px;
+font-size: 18px;
+line-height: 30px;
 /* or 168% */
 
 text-align: center;
