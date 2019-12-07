@@ -15,15 +15,15 @@ body{
   
 }
 .navbar-default li{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 1.15rem;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.22em;
-text-transform: uppercase;
-color: black;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.15rem;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: black;
 
 }
 @media screen and (min-width: 48em) {
@@ -64,45 +64,43 @@ color: black;
     background-position: center fixed;
 }
 .background h1{
-font-family: 'Josefin Sans', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 3.7em;
-line-height: 70px;
-margin-left: 12%;
-color: #FAFAFA;
-margin-top: 33%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.7em;
+    line-height: 70px;
+    margin-left: 12%;
+    color: #FAFAFA;
+    margin-top: 33%;  
 }
 span{
     color: #EE4E24;
 }
 .background .btn-default{
-width: 252.32px;
-height: 69.62px;
-background-color: #EE4E24;
-border: none;
-border-radius: 0px;
-margin-left: 12%;
+    width: 252.32px;
+    height: 69.62px;
+    background-color: #EE4E24;
+    border: none;
+    border-radius: 0px;
+    margin-left: 12%;
 }
 .background a .btn-default {
     color: white;
     font-size: 1.5em;
     text-decoration: none;
 }
-/*
 
-What part of the index.html is this targeting please
+
 
 .background .btn-primary{
-position: relative;
-width: 108.27px;
-height: 108.27px;
-background: #EE4E24;
-border-radius: 0px;
-border: none;
-margin-top: 170%;
-margin-left: 95%;
-*/
+    position: relative;
+    width: 108.27px;
+    height: 108.27px;
+    background: #EE4E24;
+    border-radius: 0px;
+    border: none;
+    margin-top: 170%;
+    margin-left: 95%;
 
 }
 .background .btn-secondary{
