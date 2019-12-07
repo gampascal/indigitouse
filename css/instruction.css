@@ -16,15 +16,17 @@ body{
     border-radius: 3px;
 }
 .navbar-default li{
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.15rem;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: black;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 1.15rem;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.22em;
+text-transform: uppercase;
+color: black;
+
 
 }
     
@@ -42,6 +44,7 @@ body{
         /* width: auto; */
             }
     }
+>>>>>>> a88804ab5f225522b4107cb345cdde1e524acd0a
 
 }
 .navbar-default .navbar-right li a{
@@ -71,7 +74,7 @@ padding:2%;
 font-family: Josefin Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 3em;
+font-size: 3rem;
 line-height: 96px;
 color:  #EE4E24;
 }
@@ -79,15 +82,27 @@ color:  #EE4E24;
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size:2em;
+font-size:2rem;
 text-align: justify;
 color: #1C1C1B;
     line-height: 1.5em;
-}.instruction p{
+}
+.heding{
+    list-style-type: circle;
+}
+#heading{
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 1.5em;
+font-size: 2rem;
+text-align: justify;
+color: #1C1C1B;
+}
+.instruction p{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
 text-align: justify;
 color: #1C1C1B;
 }
