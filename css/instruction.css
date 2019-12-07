@@ -16,7 +16,7 @@ body{
     border-radius: 3px;
 }
 .navbar-default li{
-<<<<<<< HEAD
+
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
@@ -26,16 +26,7 @@ text-align: center;
 letter-spacing: 0.22em;
 text-transform: uppercase;
 color: black;
-=======
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.15rem;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: black;
+
 
 }
     
