@@ -118,6 +118,9 @@ span{
 
 .btn{
     margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FAFAFA;
     background: #1C1C1B;
     position: absolute;
     width: 150px;
