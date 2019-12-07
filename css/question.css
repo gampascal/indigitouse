@@ -16,7 +16,7 @@ body{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.15rem;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.22em;
@@ -24,7 +24,7 @@ body{
     color: black;
 
 }
-
+    
 @media screen and (min-width: 48em) {
     .navbar-brand img {
             max-width: 500px;
@@ -37,8 +37,10 @@ body{
             height: auto;
             width: 288px;
         /* width: auto; */
-         }
+            }
     }
+
+}
 .navbar-default .navbar-right li a{
     color: black;
 }
