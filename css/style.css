@@ -8,7 +8,7 @@ body{
     border: none;
     text-align: center;
     width: 100%;
-    
+  
 }
 .navbar-default li{
 font-family: Segoe UI;
@@ -22,6 +22,21 @@ text-transform: uppercase;
 color: black;
 
 }
+@media screen and (min-width: 48em) {
+    .navbar-brand img {
+            max-width: 500px;
+        }
+    }
+    
+    .navbar-brand img {
+        /* display: inline-block; */
+            max-height: 160px;
+            height: auto;
+            width: 288px;
+        /* width: auto; */
+         }
+    }
+
 .navbar-default .navbar-right li a{
     color: black;
 }
@@ -47,7 +62,7 @@ color: black;
 font-family: Josefin Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 4em;
+font-size: 3.7em;
 line-height: 70px;
 margin-left: 12%;
 color: #FAFAFA;
@@ -57,8 +72,8 @@ span{
     color: #EE4E24;
 }
 .background .btn-default{
-width: 272.32px;
-height: 79.62px;
+width: 252.32px;
+height: 69.62px;
 background-color: #EE4E24;
 border: none;
 border-radius: 0px;
@@ -69,6 +84,10 @@ margin-left: 12%;
     font-size: 1.5em;
     text-decoration: none;
 }
+/*
+
+What part of the index.html is this targeting please
+
 .background .btn-primary{
 position: relative;
 width: 108.27px;
@@ -78,6 +97,7 @@ border-radius: 0px;
 border: none;
 margin-top: 170%;
 margin-left: 95%;
+*/
 
 }
 .background .btn-secondary{
