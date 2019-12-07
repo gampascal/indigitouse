@@ -13,6 +13,7 @@ body{
     
 }
 .navbar-default li{
+<<<<<<< HEAD
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
@@ -22,6 +23,34 @@ text-align: center;
 letter-spacing: 0.22em;
 text-transform: uppercase;
 color: black;
+=======
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.15rem;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: black;
+
+}
+    
+@media screen and (min-width: 48em) {
+    .navbar-brand img {
+            max-width: 500px;
+        }
+    }
+    
+    .navbar-brand img {
+        /* display: inline-block; */
+            max-height: 160px;
+            height: auto;
+            width: 288px;
+        /* width: auto; */
+            }
+    }
+>>>>>>> a88804ab5f225522b4107cb345cdde1e524acd0a
 
 }
 .navbar-default .navbar-right li a{
