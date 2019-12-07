@@ -16,7 +16,7 @@ body{
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 1.15rem;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.22em;
@@ -27,9 +27,13 @@ color: black;
 .navbar-default .navbar-right li a{
     color: black;
 }
-
+.login{
+    background-color: transparent;
+     background-image: url('../images/Logo.png');
+}
 
 #login{
+   
     background-color:  #EE4E24;
     text-align: center;
     padding: 5%;

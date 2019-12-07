@@ -62,8 +62,8 @@ span{
     color: #EE4E24;
 }
 .background .btn-default{
-width: 272.32px;
-height: 79.62px;
+width:150.32px;
+padding: 10px;
 background-color: #EE4E24;
 border: none;
 border-radius: 0px;
@@ -71,7 +71,7 @@ margin-left: 12%;
 }
 .background a .btn-default {
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     text-decoration: none;
 }
 .background .btn-primary{

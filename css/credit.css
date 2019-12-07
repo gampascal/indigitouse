@@ -14,7 +14,7 @@ body{
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 1.15rem;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.22em;
@@ -42,18 +42,18 @@ background: #FAFAFA;
 box-shadow: 0px 26.45px 33.06px rgba(0, 0, 0, 0.1), 0px 13.23px 13.23px rgba(0, 0, 0, 0.04);
 border-radius: 5px;
 text-align: center;
-margin: 10% 5%;
+margin: 20% 5%;
 padding:2%;
 }
-.credit .ourteam{
-/*font-family: 'Josefin Sans', sans-serif;*/
-/*
+#team{
+font-family: 'Josefin Sans', sans-serif;
+text-align: center;
 font-style: normal;
 font-weight: bold;
-font-size: 3em;
+font-size: 3rem;
 line-height: 96px;
-*/
 color:  #EE4E24;
+    
 }
 .credit h4{
 font-family: Segoe UI;
@@ -82,13 +82,27 @@ text-align: justify;
 color: #1C1C1B;
     list-style-type: square;
 }
-.credit .col-md-3 img{
+#crew  {
+    opacity: 0.5;
+    
+}
+#crew:hover {
+    
+    opacity: 1;
+    
+}
+#crew:hover img {
+    
+    opacity: 1;
+    width: 200px;
+    height: 200px;
     
 }
 footer{
     background-color: black;
     text-align: center;
     color: white;
+   
 }
 footer img{
     padding-top: 20px;
