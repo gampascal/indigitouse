@@ -86,7 +86,14 @@ span{
 }
 .btn{
     margin-left: 100px;
+<<<<<<< HEAD
  background: #EE4E24;;
+=======
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FAFAFA;
+    background: #1C1C1B;
+>>>>>>> ad6a2132d0e446fc7db959375dcc46bf5650872a
     position: absolute;
     width: 150px;
 }
