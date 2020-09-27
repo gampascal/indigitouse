@@ -76,49 +76,24 @@ body{
 span{
     color: #EE4E24;
 }
-.background .btn-default{
-    width: 252.32px;
-    height: 69.62px;
-    background-color: #EE4E24;
-    border: none;
-    border-radius: 0px;
-    margin-left: 12%;
+
+.background a .btn {
+    margin-left: 100px;
+ background: #EE4E24;;
+    position: absolute;
+    width: 150px;
+    color: #fff;
 }
-.background a .btn-default {
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-
-
-.background .btn-lg{
-    position: relative;
-    width: 108.27px;
-    height: 108.27px;
-    background: #EE4E24;
-    border-radius: 0px;
-    border: none;
-    margin-top: 170%;
-    margin-left: 95%;
-
-}
-.background .btn-secondary{
-    
-    position: relative;
-    width: 108.27px;
-    height: 108.27px;
-    background: #FFFFFF;
-    opacity: 0.5;
-    border-radius: 0px;
-    border: none;
-    margin-top: 170%;
-    margin-left: 42%;
-}
-
 .btn{
     margin-left: 100px;
+<<<<<<< HEAD
+ background: #EE4E24;;
+=======
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FAFAFA;
     background: #1C1C1B;
+>>>>>>> ad6a2132d0e446fc7db959375dcc46bf5650872a
     position: absolute;
     width: 150px;
 }
@@ -148,6 +123,7 @@ color: #1C1C1B;
 .about p{
 padding-top:30px; 
 padding-bottom: 30px;
+margin: auto;
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
@@ -181,31 +157,31 @@ color: #FAFAFA;
 }
 .know button{
    
-background: #EE4E24;
-border-radius: 0px;
-border: none;
-width: 272.32px;
-height: 79.62px;
+margin-left: 100px;
+background: #EE4E24;;
+position: absolute;
+width: 150px;
 margin-top:50px;
-margin-left: 60px;
+
 }
 .know button:hover{
-    background: #EE4E24;
-border-radius: 0px;
-border: none;
-width: 272.32px;
-height: 79.62px;
+    margin-left: 100px;
+ background: #EE4E24;;
+    position: absolute;
+    width: 150px;
 margin-top:50px;
-margin-left: 60px;
+
 }
 .know .col-md-6{
     text-align: justify;
     padding: 20px;
 }
-.know a .btn-default {
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
+.know a .btn {
+   margin-left: 100px;
+ background: #EE4E24;;
+    position: absolute;
+    width: 150px;
+    color: #fff;
 }
 .get{
     text-align: center;
@@ -239,17 +215,17 @@ text-transform: uppercase;
     font-size: 1.3em;
 }
 .get button{
+position: absolute;
+width: 150px;
 background: #EE4E24;
-border-radius: 0px;
 border: none;
-width: 315px;;
-height: 79.62px;
 margin-left: 2px;
     
 }
-.get .btn-default a{
-    color: white;
-    font-size: 1.5em;
+.get a .btn {
+    position: absolute;
+    width: 150px;
+    color: #fff;
     text-decoration: none;
 }
 
